@@ -6020,7 +6020,6 @@ textarea.form-control-lg {
 .sidebar-container {
   display: flex;
   justify-content: end;
-  position: relative;
   height: 50px; }
   @media (min-width: 768px) {
     .sidebar-container {
@@ -6042,11 +6041,13 @@ textarea.form-control-lg {
       .sidebar .logo-main {
         width: 100%; } }
 .heading-main {
-  font-size: 90px;
+  font-size: 50px;
   font-weight: 900;
   color: #e8e8e8;
   font-family: 'Poppins'; }
-
+  @media (min-width: 768px) {
+    .heading-main {
+      font-size: 90px; } }
 .ff-poppins {
   font-family: 'Poppins', sans-serif; }
 
