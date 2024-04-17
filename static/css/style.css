@@ -6019,14 +6019,28 @@ textarea.form-control-lg {
 
 .sidebar-container {
   display: flex;
-  justify-content: end; }
-
+  justify-content: end;
+  position: relative;
+  height: 50px; }
+  @media (min-width: 768px) {
+    .sidebar-container {
+      height: auto; } }
 .sidebar {
-  text-align: right;
-  height: 100vh;
-  width: 300px;
-  position: fixed; }
-
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  right: 0; }
+  @media (min-width: 768px) {
+    .sidebar {
+      text-align: right;
+      height: 100vh;
+      width: 300px;
+      right: initial; } }
+  .sidebar .logo-main {
+    width: 50%; }
+    @media (min-width: 768px) {
+      .sidebar .logo-main {
+        width: 100%; } }
 .heading-main {
   font-size: 90px;
   font-weight: 900;
