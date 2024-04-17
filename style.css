@@ -1,0 +1,43 @@
+* {
+	font-family: "Fira Sans", sans-serif;
+}
+
+.sidebar-container {
+	display: flex;
+	justify-content: end;
+}
+
+.sidebar {
+	text-align: right;
+	height: 100vh;
+	width: 300px;
+	position: fixed;
+}
+
+
+.heading-main {
+	font-size: 90px;
+	font-weight: 900;
+	color: #e8e8e8;
+	font-family: 'Poppins'
+}
+
+.ff-poppins {
+	font-family: 'Poppins', sans-serif	
+}
+
+.heading-sub {
+	
+}
+
+.nav-item {
+	/*border-bottom: #e3e3e3*/
+}
+
+.bg-gray {
+	background-color: #e8e8e8
+}
+
+.page {
+	min-height: 100vh
+}

@@ -1,930 +1,235 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Shueb Anwar - Frontend Developer</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="Shueb Anwar Frontend Developer, Lead Frontend Developer, Mobile Application Developer" name="description">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-    Theme Name: DevFolio
-    Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
-</head>
-
-<body id="page-top">
-
-  <!--/ Nav Star /-->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">Shueb Anwar</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#service">Expertise</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#work">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#testimonials">Recommendations</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#blog">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--/ Nav End /-->
-
-  <!--/ Intro Skew Star /-->
-  <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">I am Shueb Anwar</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Frontend Developer</span><strong class="text-slider"></strong></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/ Intro Skew End /-->
-
-  <section id="about" class="about-mf sect-pt4 route">
-    <div class="container">
+    <!-- Bootstrap CSS -->
+    <link href="/static/css/style.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png" >
+    <title>React Developer - Shueb Anwar</title>
+  </head>
+  <body>
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
+        <div class="col-md-4 bg-primary text-light sidebar-container">
+          <div class="sidebar px-4 py-4 d-flex flex-column align-items-end">
+            <img src="images/logo-2.svg" class="w-100" alt="Shueb Anwar - Frontend Developer" />
+            <!-- <h2 class="mb-0">SHUEB ANWAR</h2>
+            <p>Frontend Developer</p> -->
+
+            <ul class="nav flex-column my-5">
+              <li class="nav-item">
+                <a class="nav-link text-white active fs-3" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-3" href="#Portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-3" href="#Contact">Contact</a>
+              </li>
+            </ul>
+
+            <h4 class="fs-6">Follow me</h4>
+            <ul class="nav flex-row gap-2">
+              <li class="nav-item">
+                <a class="nav-link p-1" aria-current="page" href="https://www.linkedin.com/in/shuebanwar/" target="_blank"><img src="images/linkedin.svg" width="36" /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-1" aria-current="page" href="https://github.com/shueb-anwar" target="_blank"><img src="images/github.svg" width="36" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="page py-4">
             <div class="row">
-              <div class="col-md-6">
-                <div class="row">
-                  <div class="col-sm-6 col-md-5">
-                    <div class="about-img">
-                      <img src="img/shueb-anwar.jpg" style="width: 150px;" class="img-fluid rounded b-shadow-a" alt="">
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-7">
-                    <div class="about-info">
-                      <p><span class="title-s">Name: </span> <span>Shueb Anwar</span></p>
-                      <p><span class="title-s">Profile: </span> <span>Full Stack developer</span></p>
-                      <p><span class="title-s">Email: </span> <span>shueb.anwar@gmail.com</span></p>
-                      <p><span class="title-s">Phone: </span> <span>+44 755 266 7956</span></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="skill-mf">
-                  <p class="title-s">Skill</p>
-                  <div class="d-flex text-body-secondary pt-3">
-                    <p class="pb-3 mb-0 small lh-sm border-bottom">
-                      <strong class="d-block text-gray-dark">Frontend Framework</strong>
-                      NextJs, reactjs, Angular, JavsScript, TypeScript
-                    </p>
-                  </div>
+              <div class="col-md-8">
+                <p class="h2 mb-3">ABOUT ME &#128578; </p>
+                <h1><span class="badge bg-primary">SHUEB ANWAR</span></h1>
+                <h3><span class="badge bg-warning">London, GB</span></h3>
+                <p>Welcome and thanks for visiting the website to know more about me. This is my personal blog and explain about my after office skills. Please visit linkedin profile if you want to see my professional profile :-)</p>
+                <p>I love coding and learning new things; I spend time to develop useful project which can help to shape and automate your business digitally.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="images/profile-pic-pixelate.jpg" class="w-100 rounded" />
+              </div>
+            </div>
 
-                  <div class="d-flex text-body-secondary pt-3">
-                    <p class="pb-3 mb-0 small lh-sm border-bottom">
-                      <strong class="d-block text-gray-dark">Mobile Development Framework</strong>
-                      Ionic, React Native
-                    </p>
-                  </div>
-
-                  <div class="d-flex text-body-secondary pt-3">
-                    <p class="pb-3 mb-0 small lh-sm border-bottom">
-                      <strong class="d-block text-gray-dark">Backend Framework</strong>
-                      Nodejs, Python, Django
-                    </p>
-                  </div>
-
-                  <div class="d-flex text-body-secondary pt-3">
-                    <p class="pb-3 mb-0 small lh-sm border-bottom">
-                      <strong class="d-block text-gray-dark">UI Framework</strong>
-                      Bootstrap, Tailwind, Google Material, HTML, CSS
-                    </p>
-                  </div>
-
-                  <div class="d-flex text-body-secondary pt-3">
-                    <p class="pb-3 mb-0 small lh-sm border-bottom">
-                      <strong class="d-block text-gray-dark">Testing Framework</strong>
-                      React Testing Library, Selenium, Jasmine
-                    </p>
-                  </div>
-
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="about-me pt-4 pt-md-0">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      About me
-                    </h5>
-                  </div>
-                  <p class="lead">
-                    Throughout my 12-year-plus experience as a Front-end developer, I have focused on developing web applications using TypeScript, JavaScript, React, React Native, Angular, NodeJS and various Frontend Frameworks and libraries.
-                  </p>
-                  <p class="lead">I have been employed for many IT organisations where I worked for ecommerce, Banking and Education sector clients to build web applications.
-                  </p>
-                  <p class="lead">I possess a logical and practical approach to work, and always seeks to achieve the best results. I hold the ability to explain technical matters clearly, I like taking on challenges, have great problem-solving skills, and develop an effective solution.
-                  </p>
-                  <p class="lead">I am a quick learner with a proven track record of delivering value and quality to clients often being extended on my projects. 
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Education Start -->
-  <section id="education" class="education">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-            <div class="content-inner">
-                <div class="title-box-2"> 
-                  <h5 class="title-left">
-                    Education
-                  </h5>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-md-6  ">
-                        <div class="edu-col">
-                            <span>01-July-2012 <i>to</i> 31-June-2014</span>
-                            <h3>Master’s in computer application </h3>
-                            <p>IGNOU, New Delhi, India </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="edu-col">
-                            <span>01-Aug-2008 <i>to</i> 31-June-2011</span>
-                            <h3>Bachelor’s in computer application </h3>
-                            <p>Chaudhary Charan Singh University, Meerut, India</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Education Start -->
-  
-  <!-- Experience Start -->
-  <section class="experience" id="experience">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-            <div class="content-inner">
-              <div class="title-box-2"> 
-                <h5 class="title-left">
-                  Experience
-                </h5>
-              </div>
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <div class="exp-col">
-                            <span>June-2022 <i>to</i> Sept-2023</span>
-                            <h3>Comcast</h3>
-                            <h4>London, UK</h4>
-                            <h5>Engineer 3, Frontend</h5>
-                            <p>Shueb’s is working as React Developer on their product onstrata. He is using latest react feature to develop the new requirements. His role is to work with team, testing component using RTL, review the code and estimation</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="exp-col">
-                            <span>Jan-2022 <i>to</i> May-2022</span>
-                            <h3>GFT Financial</h3>
-                            <h4>Manchester, UK</h4>
-                            <h5>React Developer</h5>
-                            <p>Shueb’s is working as React Developer with their client Subsec.ai for their new requirement’s and migrating existing react app to NextJS App with Tailwind CSS. His role is to work with team and client for planning and discussion.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="exp-col">
-                            <span>May-2021 <i>to</i> Jan-2022</span>
-                            <h3>EssenceGlobal</h3>
-                            <h4>London, UK</h4>
-                            <h5>Senior Front-end Developer</h5>
-                            <p>Shueb’s is working as Senior Frontend Developer, his role is to work with the team for debugging and writing the code for existing feature and new projects He is working closely with their client Tesco for their new requirement’s and enhancing new feature in existing system. He is into daily stand-ups, sprint planning and client meeting.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="exp-col">
-                            <span>Sep-2009 <i>to</i> Dec-2020</span>
-                            <h3>PublicisSapient</h3>
-                            <h4>Noida, India</h4>
-                            <h5>Senior Associate Experience L2</h5>
-                            <p>Shueb’s role is to develop applications on angular and UI framework. Shueb has played a role of team lead. Along with development on front-end technologies he has been a part of Requirement gathering and client discussion as well.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="exp-col">
-                            <span>Oct-2014 <i>to</i> July-2018</span>
-                            <h3>Global Logic India Ltd.</h3>
-                            <h4>London, UK</h4>
-                            <h5>Senior Front-end Developer</h5>
-                            <p>Shueb’s is working as Senior Frontend Developer, his role is to work with the team for debugging and writing the code for existing feature and new projects He is working closely with their client Tesco for their new requirement’s and enhancing new feature in existing system. He is into daily stand-ups, sprint planning and client meeting.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="exp-col">
-                            <span>Dec-2012 <i>to</i> Oct-2014</span>
-                            <h3>Sapient Consulting</h3>
-                            <h4>Noida, India</h4>
-                            <h5>Interactive Developer </h5>
-                            <p>Shueb has led Front-end technologies to develop the responsive website. He has been a part of fun activity team for some time. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Experience Start -->
-
-  <!--/ Section Services Star /-->
-  <section id="service" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Expertise
-            </h3>
-            <p class="subtitle-a">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Mobile App Development</h2>
-              <p class="s-description text-center">Mobile hybrid app development on Ionic and React Native. Build for Android and iOS, platform specific design and managing light and dark theme.
-              </p>
-              <button class="btn btn-primary btn-block">Explore More Detail <i class="ion-chevron-right"></i></button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-android-globe"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Frontend Development</h2>
-              <p class="s-description text-center">Pixel perfect design from scratch or using Bootstrap, Tailwind or material UI framework. Performance and page load testing using lighthouse.
-              </p>
-              <button class="btn btn-primary btn-block">Explore More Detail</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-code-working"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Backend Development</h2>
-              <p class="s-description text-center">API development using Node, Nextjs or Python using Django framework. Various Auth integration e.g. Auth0, Firebase, URL based and custom.
-              </p>
-              <button class="btn btn-primary btn-block">Explore More Detail</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-monitor"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Responsive Design</h2>
-              <p class="s-description text-center">Responsive design for mobile, tablet and large screen. Mobile first responsive website development. Screen Ratio specefic coding.
-              </p>
-              <button class="btn btn-primary btn-block">Explore More Detail</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-stats-bars"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Scrum Master</h2>
-              <p class="s-description text-center">Sprint planning, daily stand-up meetings, sprint review and retrospective meeting. Team management, rampup and mantoring.
-              </p>
-              <button class="btn btn-primary btn-block">Explore More Detail</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-chatboxes"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Training</h2>
-              <p class="s-description text-center">Product Training, Client training, Demonstration and mantoring. Classroom training on project technologies and new learning.
-              </p>
-              <button class="btn btn-primary btn-block">Explore More Detail</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Section Services End /-->
-
-  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">100</p>
-              <span class="counter-text">WORKS COMPLETED</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">13</p>
-              <span class="counter-text">YEARS OF EXPERIENCE</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-people"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">40</p>
-              <span class="counter-text">TOTAL CLIENTS</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">4</p>
-              <span class="counter-text">AWARD WON</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--/ Section Portfolio Star /-->
-  <section id="work" class="portfolio-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Portfolio
-            </h3>
-            <p class="subtitle-a">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-1.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-1.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">One Strata</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-2.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-2.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Subsec.ai</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-3.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-3.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Tesco Mobile</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-4.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-4.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">UPS</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-5.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-5.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-10">
-                    <h2 class="w-title">Global Learning Platform</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-2">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-6.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-6.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Hilti</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </section>
-  <!--/ Section Portfolio End /-->
-
-  <!--/ Section Testimonials Star /-->
-  <div id="testimonials" class="testimonials paralax-mf bg-image" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div id="testimonial-mf" class="owl-carousel owl-theme">
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/1630827355704.jpeg" style="width: 150px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Scott Isaac</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  Shueb joined our team as a senior frontend engineer and brought a great attitude, skills and processes to our team. He is a skilled developer with a keen awareness of the user problem and provides valuable recommendations throughout the planning process. He also helped the developers around him on his team by being a great mentor.
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/1516302006757.jpeg" style="width: 150px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Emilio del Giudice</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">Shueb is an experienced front end developer, a logical thinker and an excellent problem solver.<br/>
-                The team took advantage of his technical skills from the design phase to the execution; always available to step in to help and to provide meaningful suggestions to create well crafted UI</p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/1517748621199.jpeg" style="width: 150px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Jacob Carthew-Gabriel</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">It has been a pleasure working with Shueb on the Tesco Mobile Angular build and a number of twitter and chat bot Prototypes. He a very motivated self starter with a focus on clean and concise code. He brings with him a wealth of experience and expertise and is very capable of mentoring and tutoring others. He is friendly, professional and works hard. I would happily work with him again and wish him the best on his journey.</p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/1610794318967.jpeg" style="width: 150px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Amir Abbas Naqvi</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">He is such a brilliant person I have ever seen. He is anyhow involved in doing the new things. He codes like he is pairing up pearls in a thread. Such a clean code he does. He has been motivating me and brushing up my skills like an elder brother and a very good person. Seems, He would do something really new and shine over the globe. He is hero of Front-End heroes.</p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--/ Section Blog Star /-->
-  <section id="blog" class="blog-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Industry Experiance
-            </h3>
-            <p class="subtitle-a">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/e-commerce.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">E-Commerce</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Morgan Freeman</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/telecom-media.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Telecom and Media</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Morgan Freeman</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/education-healthcare.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Education and Healthcare</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Morgan Freeman</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/other-domain.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Banking and Others</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Morgan Freeman</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Section Blog End /-->
-
-  <!--/ Section Contact-Footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="contact-mf">
-            <div id="contact" class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Message Me  
-                    </h5>
-                  </div>
+            <h2 class="heading-main">MY PASSION</h2>
+            <div class="row">
+              <div class="col-md-8">
+                <div class="d-flex align-items-start gap-3">
+                  <img src="images/heart.png" width="100" />
                   <div>
-                      <form action="" method="post" role="form" class="contactForm">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
-                      <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                              <div class="validation"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left">
-                      Get in Touch
-                    </h5>
-                  </div>
-                  <img src="img/logo.png" width="50" />
-                  <div class="more-info">
-                    <p class="lead">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                      expedita aperiam aliquid at.
-                      Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                      mollitia inventore?
-                    </p>
-                    <ul class="list-ico">
-                      <li><span class="ion-ios-location"></span> 24, Percy Curnock Drive, Stoke-on-Trent, ST6 2FB, UK</li>
-                      <li><span class="ion-ios-telephone"></span> +44 755 266 7956</li>
-                      <li><span class="ion-email"></span> shueb.anwar@gmail.com</li>
+                    <h4 class="text-secondary">I LOVE &#128525;</h4>
+                    <ul class="list-group">
+                      <li class="list-group-item">React Native   Development (Hybrid App)</li>
+                      <li class="list-group-item">Frontend Design/Development</li>
+                      <li class="list-group-item">Web App development (React/Angular)</li>
+                      <li class="list-group-item">API Development using Django/Node</li>
+                      <li class="list-group-item">Freelancing</li>
+                      <li class="list-group-item">Training</li>
                     </ul>
                   </div>
-                  <div class="socials">
-                    <ul>
-                      <li><a href="https://github.com/shueb-anwar" target="_blank"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
-                      <li><a href="https://www.linkedin.com/in/shuebanwar/" target="_blank"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="bg-warning rounded p-4">
+                  <h4 class="text-light">AND LOVE SOME EXTRA &#129392;</h4>
+                  <div class="d-flex align-items-start gap-2">
+                    <img src="images/heart.png" width="50" />
+                    <ul class="list-group">
+                      <li class="list-group-item text-white border-white">Photography</li>
+                      <li class="list-group-item text-white border-white">Cooking</li>
+                      <li class="list-group-item text-white border-white">Travel</li>
+                      <li class="list-group-item text-white border-white">Enjoy with Kids</li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="copyright-box">
-              <p class="copyright">&copy; Copyright <strong>Shueb Anwar</strong>. All Rights Reserved</p>
+          <!-- Portfolio -->
+          <div class="page" id="Portfolio">
+            <h2 class="heading-main">PORTFOLIO</h2>
+            <div class="card flex-row mb-4">
+              <img src="images/domap.png" style="width: 300px" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Donor Management</h5>
+                <p class="card-text">A Charity Software to manage Donor and view Donations. Nice Dashboard to see the reports.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+                <a href="#Contact" class="btn btn-outline-secondary">Request Demo</a>
+              </div>
             </div>
+
+            <div class="card flex-row mb-4">
+              <img src="images/free-dashboard-templates-1.jpg" style="width: 300px" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Masjid React Native App</h5>
+                <p class="card-text">Hybrid App to see About Masjid, Salah Timetable and make donations by Debit/Credit Cards.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+                <a href="#Contact" class="btn btn-outline-secondary">Request Demo</a>
+              </div>
+            </div>
+
+            <div class="card flex-row mb-4">
+              <img src="images/free-dashboard-templates-1.jpg" style="width: 300px" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Expense Manager</h5>
+                <p class="card-text">Web and Hybrid app to Manage Expenses, View Weekly and monthly reports</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+                <a href="#Contact" class="btn btn-outline-secondary">Request Demo</a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Contact -->
+          <div class="page" id="Contact">
+            <h2 class="heading-main">CONTACT</h2>
+            <form action="https://formspree.io/f/xwkgakqn" method="POST" id="my-form" novalidate>
+              <div id="my-form-status"></div>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="Name" required aria-describedby="invalidNameFeedback">
+                <div id="invalidNameFeedback" class="invalid-feedback">Let me know how do I address you.</div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" name="Email" placeholder="name@example.com" required aria-describedby="invalidEmailFeedback">
+                <div id="invalidEmailFeedback" class="invalid-feedback">I need this to email you the details.</div>
+              </div>
+              <div class="mb-3">
+                <label for="contact" class="form-label">Contact Number</label>
+                <input type="text" class="form-control" id="contact" name="Contact">
+                <div id="invalidNameFeedback" class="valid-feedback">Looks good! anyways this is optional.</div>
+              </div>
+              <div class="mb-3">
+                <label for="contact" class="form-label">Your Query</label>
+                <textarea class="form-control" name="Query" required aria-describedby="invalidQueryFeedback"></textarea>
+                <div id="invalidQueryFeedback" class="invalid-feedback">Help me to understand your reason to contact me.</div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">GDPR Consent</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="Yes, I consent" id="gdpr-consent" aria-describedby="invalidCheck3Feedback" required name="GDPR Consent">
+                  <label class="form-check-label" for="gdpr-consent">
+                    I am happy to receive updates from Shueb Anwar by email ( inc social media ) and SMS
+                  </label>
+                  <div id="invalidCheck3Feedback" class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+              <!-- your other form fields go here -->
+              <button type="submit" class="btn btn-primary">Submit My Details</button>
+            </form>
           </div>
         </div>
       </div>
-    </footer>
-  </section>
-  <!--/ Section Contact-footer End /-->
+    </div>
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/counterup/jquery.waypoints.min.js"></script>
-  <script src="lib/counterup/jquery.counterup.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+      var form = document.getElementById("my-form");
+      
+      async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+              'Accept': 'application/json'
+          }
+        }).then(response => {
+          if (response.ok) {
+            status.innerHTML = '<div class="alert alert-success">Thanks for your submission! I will contact you soon."</div>';
+            form.reset()
+            form.classList.remove('was-validated')
+          } else {
+            response.json().then(data => {
+              if (Object.hasOwn(data, 'errors')) {
+                status.innerHTML = '<div class="alert alert-danger">' + data["errors"].map(error => error["message"]).join(", ") + '</div>'
+              } else {
+                status.innerHTML = '<div class="alert alert-danger">"Oops! There was a problem submitting your form"</div>'
+              }
+            })
+          }
+        }).catch(error => {
+          status.innerHTML = '<div class="alert alert-danger">"Oops! There was a problem submitting your form"</div>'
+        });
+      }
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+        
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        } else {
+          handleSubmit(event);
+        }
 
-</body>
+        form.classList.add('was-validated')
+      }, false)
+  </script>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>

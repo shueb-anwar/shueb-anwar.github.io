@@ -1,0 +1,35 @@
+
+// Bootstrap and its default variables
+// @import "bootstrap-5.0.2/bootstrap.scss";
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "bootstrap-5.0.2/functions";
+
+// 2. Include any default variable overrides here
+@import 'variables';
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "bootstrap-5.0.2/variables";
+@import "bootstrap-5.0.2/mixins";
+@import "bootstrap-5.0.2/utilities";
+
+// 4. Include any optional Bootstrap components as you like
+@import "bootstrap-5.0.2/root";
+@import "bootstrap-5.0.2/reboot";
+@import "bootstrap-5.0.2/type";
+@import "bootstrap-5.0.2/card";
+@import "bootstrap-5.0.2/containers";
+@import "bootstrap-5.0.2/grid";
+@import "bootstrap-5.0.2/buttons";
+@import "bootstrap-5.0.2/badge";
+@import "bootstrap-5.0.2/forms";
+@import "bootstrap-5.0.2/nav";
+@import "bootstrap-5.0.2/list-group";
+@import "bootstrap-5.0.2/utilities/api";
+
+// 5. Add additional custom code here
+
+@import 'components';
+
