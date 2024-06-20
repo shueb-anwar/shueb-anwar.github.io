@@ -1,232 +1,259 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
 
-    <!-- Bootstrap CSS -->
-    <link href="/static/css/style.css" rel="stylesheet" crossorigin="anonymous">
-    <link rel="shortcut icon" type="image/png" href="/images/favicon.png" >
-    <title>React Developer - Shueb Anwar</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4 bg-primary text-light sidebar-container">
-          <div class="sidebar bg-primary p-2 p-md-4 d-flex flex-row flex-md-column align-items-md-end justify-content-between justify-content-md-start">
-            <img class="logo-main" src="images/logo-2.svg" alt="Shueb Anwar - Frontend Developer" />
-            
-            <ul class="nav flex-md-column my-md-5">
-              <li class="nav-item">
-                <a class="nav-link text-white active fs-3 p-1 p-md-3" aria-current="page" href="#"><img src="images/person.svg" width="24" class="d-block d-md-none" /> <span class="d-none d-md-block">About</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fs-3 p-1 p-md-3" href="#Portfolio"><img src="images/group_work.svg" width="24" class="d-block d-md-none"/> <span class="d-none d-md-block">Portfolio</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white fs-3 p-1 p-md-3" href="#Contact"><img src="images/mail.svg" width="24" class="d-block d-md-none" /> <span class="d-none d-md-block">Contact</span></a>
-              </li>
-            </ul>
+  <!-- Bootstrap CSS -->
+  <link href="/static/css/style.css" rel="stylesheet" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+  <title>React Developer - Shueb Anwar</title>
+</head>
 
-            <h4 class="fs-6 d-none d-md-block">Follow me</h4>
-            <ul class="nav flex-row gap-2">
-              <li class="nav-item">
-                <a class="nav-link p-1" aria-current="page" href="https://www.linkedin.com/in/shuebanwar/" target="_blank"><img src="images/linkedin.svg" width="24" /></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link p-1" aria-current="page" href="https://github.com/shueb-anwar" target="_blank"><img src="images/github.svg" width="24" /></a>
-              </li>
-            </ul>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 bg-primary text-light sidebar-container">
+        <nav class="navbar navbar-expand-lg sidebar navbar-dark bg-primary p-2 p-md-4 flex-md-column align-items-md-end">
+          <a class="navbar-brand" href="#"><img class="logo-main" src="images/logo-2.svg" alt="Shueb Anwar - Frontend Developer" /></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarButtons"
+            aria-controls="navbarButtons" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarButtons">
+            <div class="d-flex flex-column align-items-md-end w-100">
+              <ul class="nav flex-column my-md-5 justify-content-md-start">
+                <li class="nav-item">
+                  <a class="nav-link text-white active fs-3 p-3" aria-current="page" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-3 p-3" href="#Portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-3 p-3" href="#Contact">Contact</a>
+                </li>
+              </ul>
+
+              <h4 class="fs-6 d-none d-md-block">Follow me</h4>
+              <ul class="nav flex-column flex-md-row gap-2">
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-6 px-3 py-2 p-md-1 d-flex align-items-center gap-3" aria-current="page" href="https://www.linkedin.com/in/shuebanwar/"
+                    target="_blank"><img src="images/linkedin.svg" width="24" /> <span class="d-md-none">Follow me on Linkedin</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fs-6 px-3 py-2 p-md-1 d-flex align-items-center gap-3" aria-current="page" href="https://github.com/shueb-anwar" target="_blank"><img
+                      src="images/github.svg" width="24" /> <span class="d-md-none">View My Public Repository</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="col-md-6">
+        <div class="page py-4">
+          <div class="row">
+            <div class="col-md-8">
+              <p class="h2 mb-3">ABOUT ME &#128578; </p>
+              <h1><span class="badge bg-primary">SHUEB ANWAR</span></h1>
+              <h3><span class="badge bg-warning">London, GB</span></h3>
+              <p>Welcome and thanks for visiting the website to know more about me. This is my personal blog and explain
+                about my after office skills. Please visit linkedin profile if you want to see my professional profile
+                &#128578;</p>
+              <p>I love coding and learning new things; I spend time to develop useful project which can help to shape
+                and automate your business digitally.</p>
+            </div>
+            <div class="col-md-4">
+              <img src="images/profile-pic-pixelate.jpg" class="w-100 rounded" />
+            </div>
+          </div>
+
+          <h2 class="heading-main">MY PASSION</h2>
+          <div class="row">
+            <div class="col-md-8 mb-4">
+              <div class="d-flex align-items-start gap-3">
+                <img src="images/heart.png" width="100" />
+                <div>
+                  <h4 class="text-secondary">I LOVE &#128525;</h4>
+                  <ul class="list-group">
+                    <li class="list-group-item">React Native Development (Hybrid App)</li>
+                    <li class="list-group-item">Frontend Design/Development</li>
+                    <li class="list-group-item">Web App development (React/Angular)</li>
+                    <li class="list-group-item">API Development using Django/Node</li>
+                    <li class="list-group-item">Freelancing</li>
+                    <li class="list-group-item">Training</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="bg-warning rounded p-4">
+                <h4 class="text-light">AND LOVE SOME EXTRA &#129392;</h4>
+                <div class="d-flex align-items-start gap-2">
+                  <img src="images/heart.png" width="50" />
+                  <ul class="list-group">
+                    <li class="list-group-item text-white border-white">Photography</li>
+                    <li class="list-group-item text-white border-white">Cooking</li>
+                    <li class="list-group-item text-white border-white">Travel</li>
+                    <li class="list-group-item text-white border-white">Enjoy with Kids</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="page py-4">
-            <div class="row">
-              <div class="col-md-8">
-                <p class="h2 mb-3">ABOUT ME &#128578; </p>
-                <h1><span class="badge bg-primary">SHUEB ANWAR</span></h1>
-                <h3><span class="badge bg-warning">London, GB</span></h3>
-                <p>Welcome and thanks for visiting the website to know more about me. This is my personal blog and explain about my after office skills. Please visit linkedin profile if you want to see my professional profile &#128578;</p>
-                <p>I love coding and learning new things; I spend time to develop useful project which can help to shape and automate your business digitally.</p>
-              </div>
-              <div class="col-md-4">
-                <img src="images/profile-pic-pixelate.jpg" class="w-100 rounded" />
-              </div>
-            </div>
-
-            <h2 class="heading-main">MY PASSION</h2>
-            <div class="row">
-              <div class="col-md-8 mb-4">
-                <div class="d-flex align-items-start gap-3">
-                  <img src="images/heart.png" width="100" />
-                  <div>
-                    <h4 class="text-secondary">I LOVE &#128525;</h4>
-                    <ul class="list-group">
-                      <li class="list-group-item">React Native   Development (Hybrid App)</li>
-                      <li class="list-group-item">Frontend Design/Development</li>
-                      <li class="list-group-item">Web App development (React/Angular)</li>
-                      <li class="list-group-item">API Development using Django/Node</li>
-                      <li class="list-group-item">Freelancing</li>
-                      <li class="list-group-item">Training</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="bg-warning rounded p-4">
-                  <h4 class="text-light">AND LOVE SOME EXTRA &#129392;</h4>
-                  <div class="d-flex align-items-start gap-2">
-                    <img src="images/heart.png" width="50" />
-                    <ul class="list-group">
-                      <li class="list-group-item text-white border-white">Photography</li>
-                      <li class="list-group-item text-white border-white">Cooking</li>
-                      <li class="list-group-item text-white border-white">Travel</li>
-                      <li class="list-group-item text-white border-white">Enjoy with Kids</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+        <!-- Portfolio -->
+        <div class="page" id="Portfolio">
+          <h2 class="heading-main">PORTFOLIO</h2>
+          <div class="card flex-md-row mb-4">
+            <img src="images/domap.png" style="width: 300px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Donor Management</h5>
+              <p class="card-text">A Charity Software to manage Donor and view Donations. Nice Dashboard to see the
+                reports.</p>
+              <a href="https://mslogix-cms.vercel.app/" target="_blank" class="btn btn-primary">View Details</a>
+              <a href="#Contact" class="btn btn-outline-secondary">Request Demo</a>
             </div>
           </div>
-          <!-- Portfolio -->
-          <div class="page" id="Portfolio">
-            <h2 class="heading-main">PORTFOLIO</h2>
-            <div class="card flex-md-row mb-4">
-              <img src="images/domap.png" style="width: 300px" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Donor Management</h5>
-                <p class="card-text">A Charity Software to manage Donor and view Donations. Nice Dashboard to see the reports.</p>
-                <a href="https://mslogix-cms.vercel.app/" target="_blank" class="btn btn-primary">View Details</a>
-                <a href="#Contact" class="btn btn-outline-secondary">Request Demo</a>
-              </div>
-            </div>
 
-            <div class="card flex-md-row mb-4">
-              <img src="images/signpro.png" style="width: 280px; margin: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.40);" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">SignPro</h5>
-                <p class="card-text">Signpro is a simple Integrated eSignature Platform where user can request signature from multiple Recipient's and can Dive into PDF using SignPro to chat with PDF for any question.                </p>
-                <a href="https://signpro.vercel.app/" target="_blank" class="btn btn-primary">View Details</a>
-                <a href="#Contact" class="btn btn-outline-secondary">Request Demo</a>
-              </div>
+          <div class="card flex-md-row mb-4">
+            <img src="images/signpro.png" style="width: 280px; margin: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.40);"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SignPro</h5>
+              <p class="card-text">Signpro is a simple Integrated eSignature Platform where user can request signature
+                from multiple Recipient's and can Dive into PDF using SignPro to chat with PDF for any question. </p>
+              <a href="https://signpro.vercel.app/" target="_blank" class="btn btn-primary">View Details</a>
+              <a href="#Contact" class="btn btn-outline-secondary">Request Demo</a>
             </div>
-
-            <div class="card flex-md-row mb-4">
-              <img src="images/free-dashboard-templates-1.jpg" style="width: 300px" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Expense Manager</h5>
-                <p class="card-text">Web and Hybrid app to Manage Expenses, View Weekly and monthly reports</p>
-                <a href="#" class="btn btn-primary">View Details</a>
-                <a href="#Contact" class="btn btn-outline-secondary">Request Demo</a>
-              </div>
-            </div>
-
           </div>
 
-          <!-- Contact -->
-          <div class="page" id="Contact">
-            <h2 class="heading-main">CONTACT</h2>
-            <form action="https://formspree.io/f/xwkgakqn" method="POST" id="my-form" novalidate>
-              <div id="my-form-status"></div>
-              <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" name="Name" required aria-describedby="invalidNameFeedback">
-                <div id="invalidNameFeedback" class="invalid-feedback">Let me know how do I address you.</div>
+          <div class="card flex-md-row mb-4">
+            <img src="images/free-dashboard-templates-1.jpg" style="width: 300px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Expense Manager</h5>
+              <p class="card-text">Web and Hybrid app to Manage Expenses, View Weekly and monthly reports</p>
+              <a href="#" class="btn btn-primary">View Details</a>
+              <a href="#Contact" class="btn btn-outline-secondary">Request Demo</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Contact -->
+        <div class="page" id="Contact">
+          <h2 class="heading-main">CONTACT</h2>
+          <form action="https://formspree.io/f/xwkgakqn" method="POST" id="my-form" novalidate>
+            <div id="my-form-status"></div>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="Name" required
+                aria-describedby="invalidNameFeedback">
+              <div id="invalidNameFeedback" class="invalid-feedback">Let me know how do I address you.</div>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" name="Email" placeholder="name@example.com" required
+                aria-describedby="invalidEmailFeedback">
+              <div id="invalidEmailFeedback" class="invalid-feedback">I need this to email you the details.</div>
+            </div>
+            <div class="mb-3">
+              <label for="contact" class="form-label">Contact Number</label>
+              <input type="text" class="form-control" id="contact" name="Contact">
+              <div id="invalidNameFeedback" class="valid-feedback">Looks good! anyways this is optional.</div>
+            </div>
+            <div class="mb-3">
+              <label for="contact" class="form-label">Your Query</label>
+              <textarea class="form-control" name="Query" required aria-describedby="invalidQueryFeedback"></textarea>
+              <div id="invalidQueryFeedback" class="invalid-feedback">Help me to understand your reason to contact me.
               </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" name="Email" placeholder="name@example.com" required aria-describedby="invalidEmailFeedback">
-                <div id="invalidEmailFeedback" class="invalid-feedback">I need this to email you the details.</div>
-              </div>
-              <div class="mb-3">
-                <label for="contact" class="form-label">Contact Number</label>
-                <input type="text" class="form-control" id="contact" name="Contact">
-                <div id="invalidNameFeedback" class="valid-feedback">Looks good! anyways this is optional.</div>
-              </div>
-              <div class="mb-3">
-                <label for="contact" class="form-label">Your Query</label>
-                <textarea class="form-control" name="Query" required aria-describedby="invalidQueryFeedback"></textarea>
-                <div id="invalidQueryFeedback" class="invalid-feedback">Help me to understand your reason to contact me.</div>
-              </div>
-              <div class="mb-3">
-                <label class="form-label">GDPR Consent</label>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="Yes, I consent" id="gdpr-consent" aria-describedby="invalidCheck3Feedback" required name="GDPR Consent">
-                  <label class="form-check-label" for="gdpr-consent">
-                    I am happy to receive updates from Shueb Anwar by email ( inc social media ) and SMS
-                  </label>
-                  <div id="invalidCheck3Feedback" class="invalid-feedback">
-                    You must agree before submitting.
-                  </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">GDPR Consent</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Yes, I consent" id="gdpr-consent"
+                  aria-describedby="invalidCheck3Feedback" required name="GDPR Consent">
+                <label class="form-check-label" for="gdpr-consent">
+                  I am happy to receive updates from Shueb Anwar by email ( inc social media ) and SMS
+                </label>
+                <div id="invalidCheck3Feedback" class="invalid-feedback">
+                  You must agree before submitting.
                 </div>
               </div>
-              <!-- your other form fields go here -->
-              <button type="submit" class="btn btn-primary">Submit My Details</button>
-            </form>
-          </div>
+            </div>
+            <!-- your other form fields go here -->
+            <button type="submit" class="btn btn-primary">Submit My Details</button>
+          </form>
         </div>
       </div>
     </div>
+  </div>
 
-    <script>
-      // Example starter JavaScript for disabling form submissions if there are invalid fields
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
 
-      var form = document.getElementById("my-form");
-      
-      async function handleSubmit(event) {
-        event.preventDefault();
-        var status = document.getElementById("my-form-status");
-        var data = new FormData(event.target);
-        fetch(event.target.action, {
-          method: form.method,
-          body: data,
-          headers: {
-              'Accept': 'application/json'
-          }
-        }).then(response => {
-          if (response.ok) {
-            status.innerHTML = '<div class="alert alert-success">Thanks for your submission! I will contact you soon."</div>';
-            form.reset()
-            form.classList.remove('was-validated')
-          } else {
-            response.json().then(data => {
-              if (Object.hasOwn(data, 'errors')) {
-                status.innerHTML = '<div class="alert alert-danger">' + data["errors"].map(error => error["message"]).join(", ") + '</div>'
-              } else {
-                status.innerHTML = '<div class="alert alert-danger">"Oops! There was a problem submitting your form"</div>'
-              }
-            })
-          }
-        }).catch(error => {
-          status.innerHTML = '<div class="alert alert-danger">"Oops! There was a problem submitting your form"</div>'
-        });
+    var form = document.getElementById("my-form");
+
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+          'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = '<div class="alert alert-success">Thanks for your submission! I will contact you soon."</div>';
+          form.reset()
+          form.classList.remove('was-validated')
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = '<div class="alert alert-danger">' + data["errors"].map(error => error["message"]).join(", ") + '</div>'
+            } else {
+              status.innerHTML = '<div class="alert alert-danger">"Oops! There was a problem submitting your form"</div>'
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = '<div class="alert alert-danger">"Oops! There was a problem submitting your form"</div>'
+      });
+    }
+
+
+    form.addEventListener('submit', function (event) {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      } else {
+        handleSubmit(event);
       }
 
-        
-      form.addEventListener('submit', function (event) {
-        if (!form.checkValidity()) {
-          event.preventDefault()
-          event.stopPropagation()
-        } else {
-          handleSubmit(event);
-        }
-
-        form.classList.add('was-validated')
-      }, false)
+      form.classList.add('was-validated')
+    }, false)
   </script>
 
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
